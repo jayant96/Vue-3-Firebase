@@ -28,8 +28,8 @@
             <p>{{ title }} - by {{ author }}, {{ age }} years old</p>
             <ul>
                 <!--v-for to iterate over data-->
-                <li v-for="book in books">
-                    <img src="book.img" :alt="book.title">
+                <li v-for="book in books" :>
+                    <img :src="book.img" :alt="book.title">
                     <h3>{{book.title}}</h3>
                     <p>{{book.author}}</p>
                 </li>
