@@ -8,9 +8,9 @@ const app = Vue.createApp({
             x: 0,
             y: 0,
             books: [
-                { title: 'name of the kind', author: 'jayant surana', img: 'assets/1.jpg', isFav: true },
-                { title: 'way of the kind', author: 'jayant surana', img: 'assets/2.jpg', isFav: true },
-                { title: 'lane of the kind', author: 'jayant surana', img: 'assets/3.jpg', isFav: false },
+                { title: 'name of the kind', author: 'jayant surana', img: 'assets1/1.jpg', isFav: true },
+                { title: 'way of the kind', author: 'jayant surana', img: 'assets1/2.jpg', isFav: true },
+                { title: 'lane of the kind', author: 'jayant surana', img: 'assets1/3.jpg', isFav: false },
             ],
             url: 'https://github.com/jayant96',
         }
